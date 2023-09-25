@@ -1,4 +1,22 @@
 {
+  "name": "@hayato94087/arithmetics",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/hayato94087/arithmetics",
+  "bugs": {
+    "url": "https://github.com/hayato94087/arithmetics/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hayato94087/arithmetics.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "private": false,
   "scripts": {
     "build": "tsup index.ts --format cjs,esm --dts --minify",
     "lint": "tsc"
